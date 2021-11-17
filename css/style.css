@@ -1,0 +1,18 @@
+/* *** commons *** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #69785e;
+}
+
+h1 {
+    font-family: 'Road Rage', cursive;
+    color: #beaf5f;
+    font-size: 150px;
+    text-align: center;
+}
