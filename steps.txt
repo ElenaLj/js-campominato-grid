@@ -10,3 +10,5 @@ L'utente indica un livello di difficoltà in base al quale viene generata una gr
 2) Costruisci la griglia generale con html e css;
 3) Commenta la griglia in html e inseriscila con JS;
 4) Per la parte con JS avrai bisogno di 3 diverse classi CSS per il cubo dato che le larghezze di questi cambiano;
+5) Commenta CSS e vai ad inserire i cubi in maniera dinamica;
+6) Inserisci l'evento al click del button

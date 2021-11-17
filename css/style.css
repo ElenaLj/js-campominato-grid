@@ -28,6 +28,10 @@ h1 {
     text-transform: uppercase;
 }
 
+#play {
+    width: 50px;
+}
+
 /* *** griglia *** */
 
 .container {
