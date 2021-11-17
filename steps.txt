@@ -7,3 +7,6 @@ L'utente indica un livello di difficoltà in base al quale viene generata una gr
 // Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro.
 
 1) Struttura della pagina html e css;
+2) Costruisci la griglia generale con html e css;
+3) Commenta la griglia in html e inseriscila con JS;
+4) Per la parte con JS avrai bisogno di 3 diverse classi CSS per il cubo dato che le larghezze di questi cambiano;
