@@ -39,7 +39,9 @@ h1 {
     height: 700px;
     margin: 50px auto;
     border: 2px solid #beaf5f;
-    /* clearfix */
+}
+/* *** clearfix *** */
+.container::after {
     content: "";
     display: table;
     clear: both;

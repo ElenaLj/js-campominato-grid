@@ -4,9 +4,12 @@
 // variabile del pulsante play
 const myButton = document.getElementById("play");
 
-let items = "";
+// let items = "";
 
 myButton.addEventListener("click", function (){
+
+    // devo svuotare il container all'inizio così lo fa sempre
+    document.querySelector(".container").innerHTML = "";
 
     //variabile della selezione del livello
     const selectLevel = document.getElementById("select").value;
@@ -30,6 +33,7 @@ myButton.addEventListener("click", function (){
             myContainer.innerHTML += `
             <div class="cube medium">${i}</div>`
         }
+        console.log(myContainer);
         break;
 
         case "hard":
@@ -37,5 +41,6 @@ myButton.addEventListener("click", function (){
             myContainer.innerHTML += `
             <div class="cube hard">${i}</div>`
         }
+        console.log(myContainer);
     }
 });
